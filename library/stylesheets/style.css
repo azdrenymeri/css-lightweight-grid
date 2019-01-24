@@ -18,3 +18,22 @@
     padding-bottom: 0;
     margin-bottom: 0;
 }
+.element{
+    
+}
+.nav-bar-items {
+    list-style: none;
+    margin-bottom: 0;
+}
+.nav-bar-items li {
+    display: inline;
+}
+.nav-bar-items a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15px;
+    color: white;
+}
+.nav-bar-items a:hover{
+    color: #28F200;
+}
