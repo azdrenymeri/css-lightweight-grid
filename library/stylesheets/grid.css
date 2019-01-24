@@ -98,7 +98,7 @@ figure {
     .row {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    margin: 20px 0;
+    margin: 15px 0;
     }
 
     /* column gaps */
@@ -221,6 +221,10 @@ figure {
         margin: 0 auto;
         height: 200px;
     }
+  }
+  
+  .nav-fixed {
+    margin: 0;
+  }
 
 
-}
