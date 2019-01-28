@@ -1,17 +1,6 @@
-.img{
-    width: 200px;
-    height: auto;
-    
-    margin:10px;
-    padding:10px;
-}
-.img1{
-    width: 400px;
-    height: auto;
-    
-    margin:10px;
-    padding:10px;
-}
+
+
+/* Navigation Part */
 .nav-bar-items {
     list-style: none;
     margin-bottom: 0;
@@ -29,8 +18,28 @@
     color: #28F200;
 }
 
+/* Images */
+.img{
+    width: 200px;
+    height: auto;
+    
+    margin:10px;
+    padding:10px;
+}
+.img1{
+    width: 400px;
+    height: auto;
+    
+    margin:10px;
+    padding:10px;
+}
+
+/* Footer Part */
 footer {
     background-color: black;
+}
+footer > .row {
+    margin-bottom: 0;
 }
 footer ul {
     display: inline;
