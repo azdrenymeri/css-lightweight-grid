@@ -21,7 +21,7 @@ hr {
 ************************************************/
 h1,h2,h3,h4,h5,h6 {
     padding: 14px;
-    font-weight: 600px;
+    font-weight: 600;
 }
 h1 {
   font-size: 1.7rem;
@@ -215,12 +215,10 @@ p {
     }
     
     .navbar ul li {
-        border-right: none;
         width: 100%;
         padding: 0;
         margin: 1px 0;
         height: 30px;
-        border: 1px solid black;
     }
     
     .navbar .brand-image {
