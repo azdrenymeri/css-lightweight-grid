@@ -1,60 +1,76 @@
-.header-wrapper{
+/* Header */
+.header-wrapper {
     display:block;
-    padding: 0 5%;
-    clear: left;
-    margin-top:10px;
+    padding: 0 6%;
 }
-.header-wrapper ul{
-    float:left;
+.header-wrapper ul {
+    display: inline-block;
+    margin: 20px 10px 16px 10px;
+}
 
+#logo {
+   margin: 8px;
+   text-decoration: none;
 }
-#uhfLogo{
-    float:left;
+.nav-item a:hover{
+ border-bottom: 2px solid black;
 }
-.header-links{
+
+.c-image {
+    width: 108px;
+    height: auto;
+}
+.header-links {
     display:inline !important;
 
 }
-a{
+ a {
     color: black;
-    text-decoration: none;
+    text-decoration: none; 
 }
-a:hover{
-    text-decoration: underline;
-}
-.header-profile{
+
+
+
+.header-profile {
     float:right !important;
 }
-.sale{
+
+/* Main */
+.sale {
     display: block;
     margin: 0 5%;
     background: #333333;
     clear: left;
     text-align: center;
-    padding: 7px 7px;
+    padding: 12px 12px;
+    border: 1px solid transparent;
 }
-.sale span{
+.sale:hover { 
+     border: 1px dashed white;
+}
+.sale a {
     color:white;
-    
-    
-
 }
-.body-image{
+
+.sale a:hover{
+    text-decoration: underline;
+}
+.body-image {
     margin: 0 5%;
     position:relative;
     
 }
-.img-overlap{
+.img-overlap {
     position: absolute;
     bottom: 30%;
     left:4%;
     
 }
-.ad-overlap{
+.ad-overlap {
     padding:0 !important;
     margin:10px 0 !important;
 }
-.ad-link{
+.ad-link {
     font-size: 15px;
     padding: 10px 20px 6px 22px;
     position: relative;
@@ -76,9 +92,17 @@ a:hover{
     background: #fff;
     margin: 15px 0;
 }
-.row-class{
-
-    margin: 30px 0 5% 5%;
-    clear: left;
-    text-align: center;
+.g-container{
+    padding: 0 5%;
+    margin-top: 16px;
 }
+
+/* Xbox One S Big Picture */
+xbox {
+    padding-top: 48px;
+
+}
+
+
+
+/* Footer */
