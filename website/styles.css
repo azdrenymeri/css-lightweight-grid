@@ -1,0 +1,44 @@
+.header-wrapper{
+    display:block;
+    padding: 0 5%;
+    clear: left;
+    margin-top:10px;
+}
+.header-wrapper ul{
+    float:left;
+
+}
+#uhfLogo{
+    float:left;
+}
+.header-links{
+    display:inline !important;
+
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.header-profile{
+    float:right !important;
+}
+.sale{
+    display: block;
+    margin: 0 5%;
+    background: #333333;
+    clear: left;
+    text-align: center;
+    padding: 7px 7px;
+}
+.sale span{
+    color:white;
+    
+    
+
+}
+.body-image{
+    margin: 0 5%;
+}
