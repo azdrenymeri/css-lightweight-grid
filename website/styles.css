@@ -167,6 +167,9 @@ footer{
     padding-bottom: 20px;
     margin: 0 5%;
 }
+.links-div a:hover{
+    text-decoration: underline;
+}
 .social-div span{
     color: rgba(0,0,0,.6);
     vertical-align: super;
@@ -186,4 +189,9 @@ footer{
     transition: none;
     white-space: normal;
     text-align: left;
+}
+.bottom-footer li {
+    padding-right: 24px;
+    padding-bottom: 4px;
+    display: inline;
 }
