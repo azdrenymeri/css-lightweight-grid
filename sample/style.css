@@ -1,0 +1,62 @@
+
+
+/* Navigation Part */
+.nav-bar-items {
+    list-style: none;
+    margin-bottom: 0;
+}
+.nav-bar-items li {
+    display: inline;
+}
+.nav-bar-items a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15px;
+    color: white;
+}
+.nav-bar-items a:hover{
+    color: #28F200;
+}
+
+/* Images */
+.img{
+    width: 200px;
+    height: auto;
+    
+    margin:10px;
+    padding:10px;
+}
+.img1{
+    width: 400px;
+    height: auto;
+    
+    margin:10px;
+    padding:10px;
+}
+
+/* Footer Part */
+footer {
+    background-color: black;
+}
+footer > .row {
+    margin-bottom: 0;
+}
+footer ul {
+    display: inline;
+    color:white;
+    list-style: none;
+}
+footer ul li {
+    display: inline;
+}
+
+footer ul li h6 {
+    display: inline;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+}
+footer a:hover{
+     color: #28F200;
+}

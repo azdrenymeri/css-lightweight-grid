@@ -1,30 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>LightWeight CSS Grid Micro Framework</title>
-    
+
     <link rel="stylesheet" href="../library/stylesheets/reset.css">
     <link rel="stylesheet" href="../library/stylesheets/grid.css">
-    <link rel="stylesheet" href="../library/stylesheets/ui.css">
+    <link rel="stylesheet" href="style.css">
 
 </head>
+
 <body>
-    <div class="container-whole">
-        <div class="row-whole gap-1" style="background-color: darkgray; text-align: center";>
-            <div class="column-3" ><img height="120px" width="200px" src="../library/img/Screenshot_1.jpg"></div>
-            <div class="column-2"><h2 class="btn">Home</h2></div>
-            <div class="column-2">Store</div>
-            <div class="column-2">About us</div>
-            <div class="column-2">Sue us for logo and pictures</div>
+            <!-- HEADER -->
+            <header style="width:100%; background-color:black">
+                <div class="row nav-fixed">
+                    <div class="column-6" style="color:azure;"></div>
+                    <div class="column-6" style="color:azure;">
+                        <div class="row">
+                    <div class="column-5">
+                    </div>
+                    <div class="column-7">
+                        <ul class="nav-bar-items">
+                            <li><a href="#">Education</a></li>
+                            <li><a href="#">Work</a></li>
+                            <li><a href="#">Activities</a></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                        </div>
+
+                    </div>
+                </div>
+            </header>
+    <div class="container">
+
+        <!-- BODY -->
+        <div class="container">
+
+            <div class="row gap-2">
+                <!-- TEXT -->
+                <div class="column-4">
+                    <h2>This is an article about random pictures!</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce placerat tempus est, ac porta
+                        lectus suscipit vel. Duis rutrum, nisi eu porta tincidunt, enim velit tempus dolor, ut aliquam
+                        lectus nisl ut lacus. Quisque scelerisque turpis et nisl porta, a maximus lorem commodo.
+                        Maecenas semper blandit metus, non dignissim urna placerat eget. Nullam convallis finibus odio,
+                        vel volutpat ligula sollicitudin non. Etiam vel sem id libero tempus aliquam. Nulla ultricies
+                        augue sed bibendum blandit. Aenean sollicitudin nec dolor id sollicitudin. Maecenas tempus diam
+                        nec luctus tempor. Sed id arcu interdum, bibendum massa ut, imperdiet nulla. Mauris non turpis
+                        nec massa lacinia cursus. Vestibulum erat justo, auctor ac rhoncus aliquam, lacinia non leo.
+                    </p><p>
+                        Suspendisse in sollicitudin ligula. Vivamus turpis diam, eleifend at dolor quis, efficitur
+                        maximus metus. Nam hendrerit massa in dolor dictum tristique. Duis feugiat odio sed felis
+                        aliquam pulvinar. Sed vehicula orci vitae felis pellentesque, ac rutrum mi condimentum.
+                        Praesent pellentesque, eros in semper luctus, leo risus suscipit magna, a vestibulum risus
+                        nulla id erat. Curabitur viverra ligula sit amet interdum aliquet. Praesent nunc nisi, gravida
+                        eget pulvinar a, aliquet placerat augue. Praesent tincidunt dui justo. Curabitur accumsan,
+                        augue et rhoncus scelerisque, lectus eros consectetur eros, in aliquet magna urna tincidunt ex.
+                        Suspendisse viverra leo libero, sit amet mattis lacus dignissim ac. Integer eu efficitur
+                        sapien. Quisque quis tortor lorem. Class aptent taciti sociosqu ad litora torquent per conubia
+                        nostra, per inceptos himenaeos. Aliquam aliquet risus orci, eu egestas erat efficitur vitae.
+                        Maecenas venenatis ante vitae consectetur scelerisque.
+                        </p><p>
+                        Praesent nec facilisis justo. Nullam sollicitudin enim lorem, sit amet commodo quam ornare
+                        condimentum. Nullam quis aliquet dui, a commodo augue. Sed in tellus volutpat, pharetra leo et,
+                        bibendum eros. Vivamus mattis at metus sed porta. Curabitur quis elit sit amet metus sodales
+                        sollicitudin. Vivamus scelerisque, massa vel iaculis euismod, ipsum dui faucibus sapien, in
+                        consectetur lacus tortor vel orci. Pellentesque vitae viverra nisi. Pellentesque habitant morbi
+                        tristique senectus et netus et malesuada fames ac turpis egestas.
+                    </p></div>
+                    <!-- IMAGES -->
+                <div class="column-8" style="display: inline-block">
+                    <img class="img" src="../library/img/p1.jpg">
+                    <img class="img1" src="../library/img/p10.jpg">
+                    <img class="img" src="../library/img/p2.png">
+                    
+                    <img class="img" src="../library/img/p4.jpg">
+                    
+                    <img class="img" src="../library/img/6.jpg">
+                    <img class="img1" src="../library/img/p3.jpg">
+                    <img class="img" src="../library/img/p8.jpg">
+                    <img class="img1" src="../library/img/p9.jpg">
+                    <img class="img" src="../library/img/p12.jpg">
+                    <img class="img1" src="../library/img/p11.jpg">
+                    <img class="img" src="../library/img/p0.jpg">
+                </div>
+                
+
+
+            </div>
 
         </div>
-    </div>
-    <div class="container">
-        <div class="row gap-1"></div>
+
     </div>
 
+    <!-- FOOTER -->
+
+    <footer>
+    <div class="row gap-1">
+        <div class="column-2"></div>
+        <div class="column-8">
+            <ul>
+                <li><a href="#"><h6 class="footer-links">HTML Reference</h6></a></li>
+                <li><a href="#"><h6 class="footer-links"> Reference</h6> </a></li>
+                <li><a href="#"><h6 class="footer-links">JavaScript Reference</h6></a></li>
+                <li><a href="#"><h6 class="footer-links">Bootstrap Reference</h6></a></li>
+                <li><a href="#"><h6 class="footer-links">SQL Reference</h6></a></li>
+            </ul>
+        </div>
+        <div class="column-2"></div>
+    </div>
+
+    </footer> 
+
+   
 </body>
+
 </html>
