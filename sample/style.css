@@ -1,4 +1,6 @@
-
+body {
+    font-family: 'Montserrat', sans-serif;
+}
 
 /* Navigation Part */
 .nav-bar-items {
